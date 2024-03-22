@@ -9,24 +9,24 @@ const USER_CONFIG = {
 
   USE_PASSAGE: 'push-plus',
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wxe8d5b946cf246b98',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '393582eeb3adf3a677c6bb52b23cb189',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '湖北',
+  CITY: '武汉',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '娜娜宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'e929dfb1f6b84eaeb08cd61eb5c0c07b',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '03-20',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
